@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# List on long format, include dotfiles
+alias l="ls -la"
+
+# List on long format, only directories
+alias ld="ls -ld */"
+
+# Easier navigation: .., ..., ....
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# Shortcuts
+alias d="cd ~/dev"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias g="git"
+
+# Miscellaneous
+alias quit="exit"
+alias week="date +%V"
+
+# Recursively remove .DS_Store files
+alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"

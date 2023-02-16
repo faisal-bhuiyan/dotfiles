@@ -1,0 +1,4 @@
+# Paths
+PATH="/opt/homebrew/bin":"$PATH"
+PATH="/Applications/CMake.app/Contents/bin":"$PATH"
+PATH="~/dev/OpenFAST/unit_tests/pfunit":"$PATH"
